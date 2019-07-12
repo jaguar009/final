@@ -16,13 +16,25 @@ using System.Windows.Shapes;
 namespace Presentacion
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnpais_Click(object sender, RoutedEventArgs e)
+        {
+            frmPais pais = new frmPais();
+            pais.ShowDialog();
+        }
+
+        private void btnpasajero_Click(object sender, RoutedEventArgs e)
+        {
+            frmPasajero pasajero = new frmPasajero();
+            pasajero.ShowDialog();
         }
     }
 }

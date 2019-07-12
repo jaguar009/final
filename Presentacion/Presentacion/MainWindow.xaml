@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Presentacion"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="btnpais" Content="País" HorizontalAlignment="Left" Height="66" Margin="38,65,0,0" VerticalAlignment="Top" Width="111" Click="btnpais_Click"/>
+        <Button x:Name="btnpasajero" Content="Pasajero" HorizontalAlignment="Left" Height="66" Margin="336,65,0,0" VerticalAlignment="Top" Width="132" Click="btnpasajero_Click"/>
+
     </Grid>
 </Window>
